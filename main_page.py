@@ -80,9 +80,13 @@ st.subheader(" · 데이터 전처리")
 df= data.drop(['RowNumber', 'CustomerId', 'Surname', ], axis=1)
 st.write(df)
 
-image = Image.open("aaa.png")
-st.image(image, width=800) 
+
+
+image1 = Image.open("aaa.png")
+st.image(image1, width=800) 
+
+
 
 st.subheader(" · 상관계수")
-image = Image.open("plot1.png")
-st.image(image)
+image2 = Image.open("plot1.png")
+st.image(image2)
