@@ -11,7 +11,7 @@ from sklearn.preprocessing import LabelEncoder
 from sklearn.feature_selection import SelectKBest, f_classif
 from sklearn.ensemble import RandomForestClassifier
 from PIL import Image
-path_now = (os.path.abspath(__file__))
+
 
 
 
@@ -82,11 +82,8 @@ st.write(df)
 
 
 
-a_path = os.path.join(path_now, 'aaa.png')
-
-image = Image.open(a_path)
+image = Image.open("aaa.PNG")
 st.image(image, width=800) 
-
 
 st.subheader(" · 상관계수")
 image = Image.open("plot1.png")
