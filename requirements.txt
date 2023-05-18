@@ -1,13 +1,1 @@
-streamlit
-pandas
-finance-datareader
 matplotlib
-openpyxl
-plotly
-beautifulsoup4
-os
-warnings
-numpy
-seaborn
-re
-scikit-learn
