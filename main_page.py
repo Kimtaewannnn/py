@@ -81,7 +81,7 @@ df= data.drop(['RowNumber', 'CustomerId', 'Surname', ], axis=1)
 st.write(df)
 
 
-path_now = (os.path.abspath(__file__))
+
 a_path = os.path.join(path_now, 'aaa.png')
 
 image = Image.open(a_path)
